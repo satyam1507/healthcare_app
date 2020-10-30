@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:healthcare_app/model/coolors.dart';
+import 'package:healthcare_app/screens/homepage.dart';
 import 'package:healthcare_app/screens/signup.dart';
 import 'package:page_transition/page_transition.dart';
 import 'package:velocity_x/velocity_x.dart';
@@ -69,7 +70,15 @@ class LoginPage extends StatelessWidget {
                     width: 200,
                     height: 45,
                     child: RaisedButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          PageTransition(
+                            type: PageTransitionType.fade,
+                            child: HomePage(),
+                          ),
+                        );
+                      },
                       child: Text(
                         'LOG IN',
                         style: TextStyle(
