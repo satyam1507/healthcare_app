@@ -149,7 +149,7 @@ class Onboarding3 extends StatelessWidget {
                   [
                     FlatButton(
                         onPressed: () {
-                          Navigator.push(
+                          Navigator.pushReplacement(
                             context,
                             PageTransition(
                               type: PageTransitionType.fade,

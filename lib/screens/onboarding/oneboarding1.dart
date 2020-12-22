@@ -155,7 +155,7 @@ class Onboarding1 extends StatelessWidget {
             child: Container(
               child: GestureDetector(
                 onTap: () {
-                  Navigator.push(
+                  Navigator.pushReplacement(
                     context,
                     PageTransition(
                       type: PageTransitionType.fade,

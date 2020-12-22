@@ -34,7 +34,7 @@ class Onboarding4 extends StatelessWidget {
                 ),
                 Center(
                   child: Text(
-                    'Chat with SAM',
+                    'Symptom Checker',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       color: greenish,
@@ -120,7 +120,7 @@ class Onboarding4 extends StatelessWidget {
                   height: 45,
                   child: FlatButton(
                     onPressed: () {
-                      Navigator.push(
+                      Navigator.pushReplacement(
                         context,
                         PageTransition(
                           type: PageTransitionType.fade,

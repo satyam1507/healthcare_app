@@ -1,0 +1,14 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#01c6b2" id="canvas_background" height="602" width="802" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <text stroke="#000" transform="matrix(3.5399388485702463,0,0,3.974954160206039,-477.1111934244591,-620.8563969647818) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_2" y="230.05" x="155.5" stroke-width="0" fill="#ffffff">find best doctors</text>
+ </g>
+</svg>
